@@ -2,7 +2,7 @@ module.exports = {
   title: 'cathe-zhang',
   tagline: 'cathe-zhang\'s home',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/my-blog-docusaurus/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
