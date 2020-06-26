@@ -1,6 +1,6 @@
 module.exports = {
   title: 'cathe-zhang',
-  tagline: 'cathe-zhang\'s home',
+  tagline: '记录一切。',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/my-blog-docusaurus/',
   favicon: 'img/favicon.ico',
@@ -35,8 +35,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'H5定位终极解决方案',
+              to: 'docs/H5定位终极解决方案',
             },
             {
               label: 'Second Doc',
@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/cathe-zhang/my-blog-docusaurus//tree/dev/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/cathe-zhang/my-blog-docusaurus/tree/dev/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
