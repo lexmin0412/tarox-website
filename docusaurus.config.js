@@ -10,12 +10,12 @@ module.exports = {
     defaultDarkMode: true,
     announcementBar: {
       id: 'support_us', // Any value that will identify this message.
-      content: '致力于创建一套稳定的生产环境可用的taro生态， <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-template">taro项目模板</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-ui-hd">基于Taro2.x的第三方UI库</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-plugin-init-app">taro初始化插件，用于扫描pages和components文件夹，动态生成入口文件</a>',
+      content: '致力于创建一套稳定的生产环境可用的Taro生态， <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-template">Taro项目模板</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-ui-hd">基于Taro2.x的第三方UI库</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-plugin-init-app">taro应用初始化插件</a>',
       backgroundColor: '#25c2a0', // Defaults to `#fff`.
       textColor: '#333', // Defaults to `#000`.
     },
     navbar: {
-      title: 'Home',
+      title: '主页',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -24,10 +24,16 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '文章',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'docs/taro_001',
+          activeBasePath: 'docs/taro_001',
+          label: 'Taro相关',
+          position: 'left',
+        },
+        {to: 'blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/cathe-zhang/my-blog-docusaurus',
           label: 'GitHub',
@@ -52,7 +58,7 @@ module.exports = {
           title: 'Taro项目',
           items: [
             {
-              label: '可用于生产环境的项目模板',
+              label: '可用于生产环境的多端项目模板',
               href: 'https://github.com/cathe-zhang/taro-template',
             },
             {
