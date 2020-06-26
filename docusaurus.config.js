@@ -50,7 +50,7 @@ module.exports = {
           items: [
             {
               label: 'H5定位终极解决方案',
-              to: 'docs/H5定位终极解决方案',
+              to: 'docs/h5_001',
             },
           ],
         },
@@ -81,6 +81,34 @@ module.exports = {
             {
               label: 'taro-plugin-mp',
               href: 'https://github.com/cathe-zhang/taro-plugin-mp',
+            },
+          ],
+        },
+        {
+          title: '最前端',
+          items: [ {
+              label: '美团技术团队',
+              href: 'https://tech.meituan.com/',
+            },
+            {
+              label: '京东 - 凹凸实验室',
+              href: 'https://aotu.io/',
+            }, 
+            {
+              label: '淘系前端团队',
+              href: 'https://fed.taobao.org/',
+            },
+            {
+              label: '腾讯AlloyTeam - 博客',
+              href: 'http://www.alloyteam.com/page/0/',
+            },
+            {
+              label: '360奇舞团 - 博客',
+              href: 'https://75.team/post/list',
+            },
+            {
+              label: '知乎 - 前端技术漫游指南',
+              href: 'https://zhuanlan.zhihu.com/front-end',
             },
           ],
         },
