@@ -9,6 +9,7 @@ module.exports = {
     '博客搭建': [ 'blog1' ],
     '版本控制': [ 'gitlab_001' ],
     'Github': [ 'github_001' ],
+    '收藏站点': [ 'collections_001' ],
     Docusaurus: ['doc2', 'doc3'],
     Features: ['mdx'],
   },
