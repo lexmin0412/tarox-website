@@ -8,11 +8,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>JavaScript</>,
+    title: <>HTML / CSS / JavaScript</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        这是JavaScript相关
+        网页三剑客，永远是前端逃不过的话题
       </>
     ),
   },
