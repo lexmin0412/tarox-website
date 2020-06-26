@@ -1,8 +1,8 @@
 module.exports = {
   someSidebar: {
     '初心': [ 'doc1' ],
-    'Taro相关': [ 'taro_001' ],
-    'H5开发': [ 'h5_001' ],
+    'Taro相关': [ 'taro_001', 'taro_002' ],
+    'H5开发': [ 'h5_001', 'h5_002' ],
     '小程序开发': [ 'wx_miniprogram_001' ],
     '编码规范': [ 'code-standards1' ],
     '打包工具': [ 'packer_001' ],
