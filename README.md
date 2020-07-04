@@ -1,6 +1,6 @@
 # 个人博客
 
-[docusaurus2](https://v2.docusaurus.io/) 是一个现代化的静态网站生成器，此博客基于 docusaurus 构建，它是一个现代化的静态网站生成器。
+此博客基于 [docusaurus2](https://v2.docusaurus.io/) 构建，它是一个现代化的静态网站生成器。
 
 ### 安装
 
