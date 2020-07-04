@@ -1,4 +1,4 @@
-# 个人博客
+# 个人博客(目前主要为Taro方向)
 
 此博客基于 [docusaurus2](https://v2.docusaurus.io/) 构建，它是一个现代化的静态网站生成器。
 
