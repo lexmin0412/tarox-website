@@ -1,28 +1,28 @@
-# Website
+# 个人博客(目前主要为Taro方向)
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+此博客基于 [docusaurus2](https://v2.docusaurus.io/) 构建，它是一个现代化的静态网站生成器。
 
-### Installation
+### 安装
 
 ```
 $ yarn
 ```
 
-### Local Development
+### 本地开发
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+此命令会启动一个本地开发服务器并打开一个浏览器窗口，大部分的改变不需要重启服务器就可以在浏览器中自动更新。
 
-### Build
+### 打包
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+此命令会将静态内容打包进 `build` 文件夹，可用于任何静态内容托管网站服务。
 
 ### Deployment
 
@@ -30,4 +30,4 @@ This command generates static content into the `build` directory and can be serv
 $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+如果你使用 Github Pages 进行托管，此命令将是一个构建静态网站的快捷方式，且会将代码推送到 `gh-pages` 分支。
