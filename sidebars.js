@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    '初心': [ 'doc1' ],
+    '初心': [ 'doc1', 'summary_2020_first_half' ],
     'Taro相关': [ 'taro_001', 'taro_002' ],
     'H5开发': [ 'h5_001', 'h5_002' ],
     '小程序开发': [ 'wx_miniprogram_001' ],
