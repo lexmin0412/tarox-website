@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        网页三剑客，永远是前端逃不过的话题
+        基础决定架构
       </>
     ),
   },
@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        个人认为当今最优秀的前端跨端开发框架。
+        个人认为当今最优秀的前端跨端开发框架
       </>
     ),
   },
@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        学习中...
+        新一代的前端跨端解决方案
       </>
     ),
   },
