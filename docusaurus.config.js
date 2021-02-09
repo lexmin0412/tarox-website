@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'cathe-zhang',
+  title: 'Lexmin',
   tagline: '前端，不止于前端。',
   url: 'https://cathe-zhang.github.io',
   baseUrl: '/my-blog-docusaurus/',
   favicon: 'img/favicon.ico',
-  organizationName: 'cathe-zhang', // Usually your GitHub org/user name.
+  organizationName: 'Lexmin', // Usually your GitHub org/user name.
   projectName: 'my-blog-docusaurus', // Usually your repo name.
   themeConfig: {
     colorMode: {
@@ -34,6 +34,11 @@ module.exports = {
           activeBasePath: 'docs/taro_002',
           label: 'Taro相关',
           position: 'left',
+        },
+        {
+          href: 'https://github.com/cathe-zhang/plop-cn-docs',
+          label: 'PLOP中文文档',
+          position: 'right',
         },
         {to: 'blog', label: '博客', position: 'left'},
         {

@@ -57,6 +57,7 @@ title: 别只做一半 - 2020上半年总结
 - `React/Vue` 框架原理总结，输入博文，并写出一个简版的 `React/Vue` 项目
 - 搭建基于hooks，可用于生产环境的 `React` 单页应用模版
 - 继续维护完善 [taro-template](https://github.com/cathe-zhang/taro-template) 项目，并完善 3.x 版本的功能
+- 搭建一个基于Rollup的js库脚手架
 - 实现自己的基于 taro next 的第三方组件库
 - 向 taro 生态贡献代码
 - devops/容器化学习
