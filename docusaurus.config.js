@@ -7,7 +7,9 @@ module.exports = {
   organizationName: 'cathe-zhang', // Usually your GitHub org/user name.
   projectName: 'my-blog-docusaurus', // Usually your repo name.
   themeConfig: {
-    defaultDarkMode: true,
+    colorMode: {
+      defaultMode: 'dark'
+    },
     announcementBar: {
       id: 'support_us', // Any value that will identify this message.
       content: '致力于创建一套稳定的生产环境可用的Taro生态， <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-template">Taro项目模板</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-ui-hd">基于Taro2.x的第三方UI库</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathe-zhang/taro-plugin-init-app">taro应用初始化插件</a>',
@@ -20,7 +22,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -28,8 +30,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/taro_001',
-          activeBasePath: 'docs/taro_001',
+          to: 'docs/taro_002',
+          activeBasePath: 'docs/taro_002',
           label: 'Taro相关',
           position: 'left',
         },
@@ -125,7 +127,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'taro_001',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
